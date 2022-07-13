@@ -1,17 +1,86 @@
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
 
-    /* Navbar */
       .content__navbar {
         left: 60%;
       }
-  
-    /* Contacto */
+
+      .h1 {
+        font-size: 500%;
+        top: 60%; left: 35%;
+        max-width: 500px;
+      }
+
+      .numero_contacto {
+        font-size: 170%;
+        top: 35%; left: 77%;
+      }
+
+      .menu__grid {
+       grid-template-columns: repeat(2, 1fr);
+      } 
+
+      .container {
+        max-width: 700px;
+      }
+
+      .caja__texto {
+        font-size: 150%;
+      }
+
+      .caja__nosotros {
+        height: 100%;
+       }
+      
+      
+      .caja__pipo {
+
+        p {
+          font-size: 120%;
+          bottom: 17rem;
+          }
+      
+        img {
+          top: 6rem;
+          width: 30%;
+          
+          }
+
+      .media_footer {
+        left: 60%;
+        bottom: 25%;
+      }
+
+   }
+  }
+
+@media (max-width: 1280px) {
+
+      .content__navbar {
+        left: 60%;
+      }
+
       .numero_contacto {
         font-size: 150%;
         top: 35%; left: 3%;
       }
-  
-    /* Aplicaciones media */
+      
+      .caja__nosotros {
+        height: 400px;
+       }
+
+      .caja__pipo {
+
+        p {
+          font-size: 100%;
+          bottom: 14rem;
+          }
+        
+        img {
+          top: 4rem;
+          }
+        }
+        
+
       .media_footer {
         left: 60%;
         bottom: 25%;
@@ -19,22 +88,17 @@
   
     }
 
-   /* ---------------RESOLUCION 1024px--------------- */
-
   @media (max-width: 1024px) {
 
-    /* Navbar */
       .content__navbar {
         left: 75%;
       }
   
-    /* Titulo */
       .h1 {
         font-size: 450%;
         max-width: 450px;
       }
   
-    /* Contacto */
       .numero_contacto {
         font-size: 130%;
         top: 37%; left: 3%;
@@ -47,50 +111,67 @@
       .card {
         width: 80%;
         height: 100%;
-      }
 
-      .card img {
-        width: 100%;
-        height: 200px;
-      }
+        img {
+          width: 100%;
+          height: 200px;
+        }
 
-      .card h3 {
-        font-size: 150%;
-      }
-    
-      .card p {
-        font-size: 110%;
+        h3 {
+          font-size: 150%;
+        }
+
+        p {
+          font-size: 110%;
+        }
+
+        a {
+          font-size: 100%;
+        }
       }
       
-      .card a {
-        font-size: 100%;
+      .caja__texto {
+        font-size: 120%;
       }
 
-    /* Texto footer */
+      .caja__nosotros {
+        height: 400px;
+       }
+      
+      
+      .caja__pipo {
+
+        p {
+          left: 38%;
+          bottom: 14rem;
+          }
+      
+        img {
+          top: 3rem;
+          width: 35%;
+          
+          }
+      
       .texto_footer {
         max-width: 50%;
         top: 30%;
         margin-left: 5%;
       }
   
-    /* Aplicaciones media */
       .media_footer {
           left: 50%;
           bottom: 35%;
       }
   
     }
-
-   /* ---------------RESOLUCION 990px--------------- */
+  }
 
   @media (max-width: 990px) {
 
-    /* Navbar */
       .content__navbar {
         left: 60%;
       }
   
-    /* Titulo */
       .h1 {
         top: 65%; left: 37%;
       }
@@ -103,67 +184,82 @@
         font-size: 200%;
       }
 
-    /* Texto footer */
       .texto_footer {
         max-width: 90%;
       }
-  
-    /* Aplicaciones media */
+
       .media_footer {
         display: none;
       }
   
     }
 
-  /* ---------------RESOLUCION 768px--------------- */
 
   @media (max-width: 768px) {
 
-    /* Navbar */
     .content__navbar {
       left: 40%;
     }
 
-    /* Titulo */
     .h1 {
       font-size: 400%;
       top: 68%; 
     }
 
-    /* Contacto */
     .numero_contacto {
       top: 38%;
     }
 
-    /* Aplicaciones media */
+    .caja__texto {
+      font-size: 100%;
+    }
+
+    .caja__nosotros {
+      height: 600px;
+     }
+    
+    
+    .caja__pipo {
+
+      p {
+        font-size: 90%;
+        left: 5%;
+        top: 1rem;
+        max-width: 90%;
+        }
+    
+      img {
+        display: flex;
+        position: relative;
+        top: 30%;
+        left: 30%;
+        
+        }
+
     .media_footer {
       display: none;
     }
 
    }
 
-/* ---------------RESOLUCION 425px--------------- */
+  }
 
   @media (max-width: 425px) {
 
-  /* Navbar */
     .content__navbar {
       left: -7%;
       font-size: 70%;
     }
 
-  /* Titulo */
     .h1 {
       font-size: 300%;
       top: 75%; left: 0%;
     }
 
-  /* Contacto */
     .numero_contacto {
       display: none;
     }
 
-  /* Grids y contenedores*/
     .menu__grid {
        grid-template-columns: 1fr;
      } 
@@ -172,7 +268,26 @@
         max-width: 300px;
     }
 
-  /* Texto footer */
+    .caja__texto {
+      font-size: 100%;
+    }
+
+    .caja__nosotros {
+      height: 900px;
+     }
+    
+    
+    .caja__pipo {
+
+      p {
+        font-size: 90%;
+        left: 5%;
+        top: 1rem;
+        max-width: 90%;
+        }
+    
+    }
+
     .texto_footer {
         font-size: 130%;
         max-width: 90%;
@@ -180,45 +295,37 @@
         margin-left: 5%;
     }
 
-  /* Aplicaciones media */
     .media_footer {
       display: none;
     }
 
    }
 
-   /* ---------------RESOLUCION 375px--------------- */
 
   @media (max-width: 375px) {
 
-  /* Navbar */
     .content__navbar {
       left: -5%;
       font-size: 60%;
     }
 
-  /* Contacto */
     .numero_contacto {
       display: none;
     }
 
-  /* Texto footer */
     .texto_footer {
       font-size: 100%;
       max-width: 90%;
     }
 
-  /* Aplicaciones media */
     .media_footer {
       display: none;
     }
 
    }
 
-   /* ---------------RESOLUCION 320px--------------- */
   @media (max-width: 320px) {
 
-    /* esto seria el boton del menu de hamburguesa */
     span{
         display: flex;
         font-size: 300%;
@@ -247,7 +354,6 @@
         max-width: 250px;
     }
 
-      /* Aplicaciones media */
     .media_footer {
       display: none;
     }

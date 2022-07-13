@@ -39,10 +39,11 @@ span{
 .container {
     max-width: 1300px;
     margin: 0 auto;
-  }
 
-.container__2 {
+    &__2 {
     max-width: 1300px;
     max-height: 500px;
     margin: 0 auto;
+  }
+
   }
