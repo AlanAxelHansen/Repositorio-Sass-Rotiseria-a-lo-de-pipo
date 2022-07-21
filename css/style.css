@@ -14,7 +14,7 @@ body {
 
 footer {
   background-color: black;
-  height: 20rem; }
+  height: 30rem; }
 
 a {
   text-decoration: none; }
@@ -113,34 +113,36 @@ span {
     color: #000000;
     text-align: center;
     font-size: 150%; }
-  .card a {
-    font-size: 150%;
-    color: #000000;
-    background-color: #fec171;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2vw;
-    transform: 0.2s; }
-    .card a:hover {
-      transform: scale(115%); }
+
+.boton, .cuenta__caja button {
+  font-size: 150%;
+  color: #000000;
+  background-color: #fec171;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2vw;
+  transform: 0.2s; }
+  .boton:hover, .cuenta__caja button:hover {
+    transform: scale(115%); }
 
 .menu {
   margin-top: 30px;
   margin-bottom: 100px; }
-  .menu__title {
-    color: #fec171;
-    background-color: #000000cc;
-    text-align: center;
-    font-size: 250%;
-    margin: 3%;
-    border-radius: 10px; }
   .menu__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px; }
+
+.titulo {
+  color: #fec171;
+  background-color: #000000cc;
+  text-align: center;
+  font-size: 250%;
+  margin: 3%;
+  border-radius: 10px; }
 
 .cuenta__caja {
   width: 600px;
@@ -185,18 +187,6 @@ span {
     margin-top: 3%;
     flex-direction: column;
     width: 100%; }
-  .cuenta__caja button {
-    font-size: 70%;
-    color: #fec171;
-    background-color: #000000cc;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    line-height: 300%;
-    width: 70%;
-    margin-top: 7%; }
 
 .caja__texto {
   color: #fec171;
@@ -251,6 +241,50 @@ span {
   left: 70%;
   bottom: 20px; }
 
+.map {
+  display: grid; }
+  .map h6 {
+    color: white;
+    font-size: large; }
+  .map__redes {
+    position: relative;
+    left: 80%; }
+  .map__pagina {
+    position: relative;
+    left: 70%;
+    color: #ffa602;
+    max-width: 5%;
+    bottom: 280%; }
+    .map__pagina a {
+      display: block;
+      background-color: #ffa602;
+      color: black;
+      font-weight: bold; }
+
+.link-instagram1 {
+  margin: 40px 5px;
+  padding: 10px;
+  border-radius: 0 5px;
+  color: black;
+  background-color: #ffa602;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  max-width: 5%;
+  position: relative; }
+
+.link-instagram2 {
+  margin: 40px 5px;
+  padding: 10px;
+  border-radius: 0 5px;
+  color: black;
+  background-color: #ffa602;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  max-width: 5%;
+  position: relative; }
+
 @media (max-width: 1440px) {
   .content__navbar {
     left: 60%; }
@@ -279,7 +313,9 @@ span {
     width: 30%; }
   .caja__pipo .media_footer {
     left: 60%;
-    bottom: 25%; } }
+    bottom: 25%; }
+  .coso {
+    display: none; } }
 
 @media (max-width: 1280px) {
   .content__navbar {

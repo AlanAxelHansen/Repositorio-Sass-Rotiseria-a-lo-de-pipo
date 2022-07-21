@@ -48,9 +48,13 @@
       .media_footer {
         left: 60%;
         bottom: 25%;
+          }
       }
 
-   }
+      .coso {
+        display: none;
+      }
+
   }
 
 @media (max-width: 1280px) {
@@ -85,8 +89,12 @@
         left: 60%;
         bottom: 25%;
       }
-  
+
+
     }
+    
+    
+    
 
   @media (max-width: 1024px) {
 
